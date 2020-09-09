@@ -1,10 +1,10 @@
-# Ejabberd API to get online users with specific status
+# Ejabberd API to get online users available for chatting
 
-This module provides http API to get online users with specific status.
+This module provides http API to get online users with specific status (online, available for chatting).
 
 Module tracks presence with this status and returns list of JIDs (without resources) who are online and have specific status of this presence. 
 
-It provides http API by URI: /online_filter.
+It provides http API by URI: ``/online_filter``.
 
 It returns list of strings (JIDs) in JSON format
 
