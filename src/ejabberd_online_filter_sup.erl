@@ -1,5 +1,5 @@
 -module(ejabberd_online_filter_sup).
--author("begemot").
+-author("Sergey Loguntsov <loguntsov@gmail.com>").
 
 -behaviour(supervisor).
 

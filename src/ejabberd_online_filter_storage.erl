@@ -1,5 +1,5 @@
 -module(ejabberd_online_filter_storage).
--author("begemot").
+-author("Sergey Loguntsov <loguntsov@gmail.com>").
 
 %% API
 -export([

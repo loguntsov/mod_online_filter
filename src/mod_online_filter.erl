@@ -1,5 +1,5 @@
 -module(mod_online_filter).
-
+-author("Sergey Loguntsov <loguntsov@gmail.com>").
 
 -behavior(gen_mod).
 -export([
@@ -28,7 +28,7 @@
 
 -define(NS_HTTP_GATEWAY, <<"urn:xmpp:http_gateway">>).
 -define(XMPP_CODEC,http_gateway_xmpp).
--define(APP, http_gateway).
+-define(APP, -author("Sergey Loguntsov <loguntsov@gmail.com>").http_gateway).
 
 %% gen_mod callbacks
 
