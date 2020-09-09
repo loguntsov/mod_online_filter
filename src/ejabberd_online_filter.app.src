@@ -1,0 +1,13 @@
+{application, ejabberd_online_filter, [
+  {description, "API to get online users with specific status"},
+  {vsn, "0.1"},
+  {registered, []},
+  {applications, [
+    kernel,
+    stdlib,
+    inets,
+    jsx
+  ]},
+  {mod, {ejabberd_online_filter_app, []}},
+  {env, []}
+]}.
