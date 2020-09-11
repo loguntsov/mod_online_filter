@@ -91,4 +91,11 @@ To tesh http API just call:
 apt install gcc libssl-dev libexpat1-dev libyaml-dev g++ zlib1g-dev
 ```
 
+# Author
+
+Sergey Loguntsov mailto: [loguntsov][gmail.com]
+
+# License
+
+MIT
 
